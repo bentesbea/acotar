@@ -1,0 +1,97 @@
+#import url (https://fonts.google.com/specimen/Tangerine);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-image: url(tumblr_7939a77a6f9d331de1f4788dc955188c_acb174ce_500.gif);
+    font-family:'Tangerine', cursive;
+}
+.cabecalho{
+    background-color: rgb(249, 243, 243);
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+nav a{
+    color: aliceblue;
+    float: right;
+    display: block;
+    padding: 20px 14px;
+    text-decoration: none;
+}
+#Player{
+
+}
+nav a:hover{
+    transition: 0,5s;
+    background-color: rgba(25, 22, 109, 0.858) ;
+}
+.conteudo-p1{
+    color: aliceblue;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+}
+.Conteudop1-escrito{
+    flex-direction: column;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    text-align: justify;
+    background-color: #010a26bc;
+    margin: 30px ;
+    margin-bottom: 0;
+    height: 460px;
+    margin-top: 80px;
+    border-radius: 10px;
+    
+}
+.img-conteudo-p1{
+    border-radius: 20px;
+}
+.conteudop2{
+    color: aliceblue;
+
+}
+.conteudop2-escrito{
+    background-color: #010a26bc;
+    padding-right: 45px;
+    padding-left: 45px;
+    text-align: justify;
+    margin-bottom: 35px;
+    height: 220px;
+}
+.conteudop2-escritotitulo{
+    text-align: center;
+    padding-top: 15px;
+}
+.conteudop2img{
+    display: flex;
+    justify-content: space-around;
+}
+.conteudop2imagens{
+    width: 400px;
+    height: 650px;
+}
+footer{
+    color: #8c8bc5;
+    text-align: center;
+    padding-top: 90px;
+    margin-bottom: 0px;
+    justify-content: 
+    display: flex;
+}
+.rodapeimage{
+    width: 25px;
+    height: 25px;
+    justify-content: flex-end;
+}
+footer div{
+    display: flex;
+    justify-content: space-evenly;
+}
